@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in using Boostrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4201/4201973.png" type="image/x-icon">
+</head>
+<body>
+    <!-- navbar -->
+    <div class="row-navbar">
+        <div class="container-md">
+            <!-- <nav class="navbar navbar-expand-md bg-body-tertiary"> -->
+            <nav class="navbar navbar-expand-md ">
+                <div class="container-md px-0">
+                    <div class="navbar-nav ms-auto">
+                      <a class="nav-link" href="#">Home</a>
+                      <a class="nav-link" href="#">Product</a>
+                      <a class="nav-link" href="#">Gallery</a>
+                      <a class="nav-link" href="#">Blog</a>
+                      <a class="nav-link" href="#">Inventory</a>
+                    </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+
+    <!-- status -->
+    <div class="row-status">
+            <div class="container-md">
+                <div class="kotak d-flex mt-5 mb-5">
+                    <div class="col-md-2 d-flex justify-content-center align-items-center" >
+                        <img class="rounded-circle" src="https://i.pinimg.com/originals/23/69/74/23697426777b34fd294433ff7fc3185b.jpg" alt="photos" height="150" width="150">
+                    </div>
+    
+                    <div class="col-md-3 d-flex flex-column" >
+                        <h3 id="full-name">Nama Lengkap</h3>
+                        <h5 id="full-position">Posisi</h5>
+        
+                        <div class="row-md d-flex flex-row">
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-primary">Kontak</button>
+                            </div>
+                            <div class="col-md-6">
+                                <button type="button" class="btn btn-light">Resume</button>
+                            </div>
+                        </div>
+                    </div>
+                        
+                    <div class="col-md-7 d-flex column-gap-3" >
+                        <div class="col-md-3" >
+                            <!-- sengaja dikosongkan -->
+                        </div>
+                        <div class="col-md-3-identity" >
+                            <p>Availbility</p>
+                            <p>Usia</p>
+                            <p>Lokasi</p>
+                            <p>Pengalaman</p>
+                            <p>Email</p>
+                        </div>
+                        <div class="col-md-3-status" >
+                            <p id="status-value">Availbility</p>
+                            <p id ='status-usia'>Usia</p>
+                            <p id ='status-lokasi'>Lokasi</p>
+                            <p id="status-pengalaman">Pengalaman</p>
+                            <p id="status-email">Email</p>
+                        </div>
+                        <div class="col-md-3" >
+                            <!-- sengaja dikosongkan -->
+                        </div>
+                    </div>
+
+    
+                </div>
+            </div>
+    </div>
+
+
+    <div class="row-form">
+        <div class="container-md">
+            <form action="" id="form" onsubmit="myFunction()">
+                <div class="mb-3">
+                    <label for="exampleInputName" class="form-label">Nama</label>
+                    <input type="text" class="form-control" id="exampleInputName" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputRole" class="form-label">Role</label>
+                    <input type="text" class="form-control" id="exampleInputRole" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputAvailbility" class="form-label">Availbility</label>
+                    <input type="text" class="form-control" id="exampleInputAvailbility" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputUsia" class="form-label">Usia</label>
+                    <input type="text" class="form-control" id="exampleInputUsia" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputLokasi" class="form-label">Lokasi</label>
+                    <input type="text" class="form-control" id="exampleInputLokasi" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputExp" class="form-label">Years Experience</label>
+                    <input type="text" class="form-control" id="exampleInputExp" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="">
+                </div>
+                <div class="mb-3">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>

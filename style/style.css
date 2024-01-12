@@ -1,0 +1,54 @@
+body{
+    background-color: whitesmoke;
+}
+
+.row-navbar{
+    background-color: white;
+}
+
+.row .container{
+    /* background-color: white; */
+    max-width: 1200px;
+    /* border: 1px solid; */
+    padding: 0;
+}
+
+.navbar-nav .nav-link:hover{
+    background-color: darksalmon;
+}
+
+.kotak{
+    background-color: white;
+}
+
+.kotak.d-flex.mt-5.mb-5 {
+    padding: 20px 10px;
+}
+
+.btn.btn-primary{
+    width: 80%;
+    /* color: red; */
+}
+
+.btn.btn-light{
+    width: 80%;
+    border: 0.75px solid;
+}
+.col-md-3-identity{
+    font-weight: bold;
+    /* columns: 2; */
+}
+
+form{
+    background-color: white;
+    padding: 20px 15px;
+}
+
+form label{
+    font-weight: bold;
+}
+
+form .mb-3 .btn.btn-success{
+    width: 100%;
+    border: 0.75px solid;
+}
